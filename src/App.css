@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.voice-to-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 100vh;
+}
+
+.voice-to-text-heading {
+  font-size: 50px;
+}
+
+.voice-to-text-button {
+  margin: 10px;
+  padding: 20px 30px;
+  font-size: 18px;
+}
+
+.voice-to-text-transcription {
+  width: 300px;
+  height: 200px;
+  resize: none;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+  font-size: 24px;
+}
+
+.voice-to-text-response {
+  margin-top: 10px; 
+  font-size: 24px;
+}
